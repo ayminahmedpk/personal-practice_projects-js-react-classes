@@ -1,0 +1,7 @@
+
+
+0.1.0:
+  - React 16.14 up and running
+  - Downgrade to React 16
+  - CRA installation with latest version
+  - Init

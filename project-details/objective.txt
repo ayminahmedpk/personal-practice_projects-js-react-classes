@@ -1,0 +1,8 @@
+
+
+Practicing and making POCs and summaries of:
+
+  - JS and React with Class Syntax
+  - React Testing Library
+  - React Dev tools and profiler
+  - React internals (rendering, optimizations, etc)
