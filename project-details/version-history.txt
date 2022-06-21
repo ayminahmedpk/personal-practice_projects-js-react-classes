@@ -1,5 +1,11 @@
 
 
+0.1.1:
+  - React Testing library set up
+  - React Testing Library downgraded
+  - Profiler in devtools exists
+  - Devtools tested
+
 0.1.0:
   - React 16.14 up and running
   - Downgrade to React 16
