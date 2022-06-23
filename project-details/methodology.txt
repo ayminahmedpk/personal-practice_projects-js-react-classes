@@ -1,0 +1,10 @@
+
+
+
+
+You typically only render one main lesson inside the 'App' component at any
+point.
+
+Note that you are rendering a lesson, through the main component of that
+lesson. The actual component or number of components in that lesson is
+irrelevant.
