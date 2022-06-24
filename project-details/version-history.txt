@@ -1,5 +1,9 @@
 
 
+0.1.4:
+  - Child with PropTypes, Default Props
+
+
 0.1.3:
   - Child with simple props
 
