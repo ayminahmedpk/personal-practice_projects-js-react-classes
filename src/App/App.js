@@ -1,7 +1,7 @@
 
 
 import React, { Component } from 'react'
-import Parent from '../Lessons/01-basics/02-child-components/03-child-components-props-advanced/Parent';
+import Parent from '../Lessons/01-basics/03-stateful-component/02-state-and-children/Parent.js'
 
 class App extends Component {
   render() {

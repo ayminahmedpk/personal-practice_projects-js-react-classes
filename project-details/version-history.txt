@@ -1,5 +1,10 @@
 
 
+0.1.5:
+  - State and children
+  - Stateful component
+
+
 0.1.4:
   - Child with PropTypes, Default Props
 
