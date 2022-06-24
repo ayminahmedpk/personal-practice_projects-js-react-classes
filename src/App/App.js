@@ -1,7 +1,8 @@
 
 
 import React, { Component } from 'react'
-import Parent from '../Lessons/01-basics/04-context/01-simple-context/Parent';
+import Parent from '../Lessons/01-basics/04-context/02-stateful-context/Parent';
+// import Parent from '../Lessons/01-basics/04-context/01-simple-context/Parent';
 
 class App extends Component {
   render() {
