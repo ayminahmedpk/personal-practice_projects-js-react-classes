@@ -1,4 +1,10 @@
 
+
+0.1.8:
+  - {this.props.children} and automatically optimized re-renders
+  - State, chain and re-renders
+
+
 0.1.7:
   - Stateful context
 

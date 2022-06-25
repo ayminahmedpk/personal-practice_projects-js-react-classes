@@ -1,14 +1,17 @@
 
 
 import React, { Component } from 'react'
-import Parent from '../Lessons/01-basics/04-context/02-stateful-context/Parent';
-// import Parent from '../Lessons/01-basics/04-context/01-simple-context/Parent';
+
+import Grandparent from '../Lessons/02-pure-and-memo/02-nesting-children-outside-jsx/Grandparent';
+import Parent from '../Lessons/02-pure-and-memo/02-nesting-children-outside-jsx/Parent';
+import Child from '../Lessons/02-pure-and-memo/02-nesting-children-outside-jsx/Child';
+import Grandchild from '../Lessons/02-pure-and-memo/02-nesting-children-outside-jsx/Grandchild';
 
 class App extends Component {
   render() {
     return (
       <>
-        <Parent/>
+        <Grandparent/>
       </>
     )
   }
