@@ -1,4 +1,7 @@
 
+0.1.9:
+  - Simulated propchange update through this.forceUpdate(), intuitive
+
 
 0.1.8:
   - {this.props.children} and automatically optimized re-renders
