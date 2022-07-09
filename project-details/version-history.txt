@@ -1,4 +1,9 @@
 
+
+0.1.10:
+  - Improved propTypes (static syntax tested)
+
+
 0.1.9:
   - Simulated propchange update through this.forceUpdate(), intuitive
 

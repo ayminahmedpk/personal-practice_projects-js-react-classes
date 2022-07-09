@@ -9,10 +9,17 @@ import PropTypes from 'prop-types';
 export default class Child extends Component {
 
   // Default props style 1
-  // static defaultProps = {
-  //   default: 1,
-  //   defaultOverride: 2,
-  // };
+  static defaultProps = {
+    default: 1,
+    defaultOverride: 2,
+  };
+
+  static propTypes = {
+    default         : PropTypes.number,
+    defaultOverride : PropTypes.number,
+    alwaysInt       : PropTypes.number,
+    alwaysStr       : PropTypes.string,
+  }
 
   render() {
     return (
@@ -38,18 +45,17 @@ export default class Child extends Component {
   }
 }
 
-// Default props style 2 -  more consistent if we frequently use propTypes, as
-// they're both outside. Also, consistent with function syntax, too.
-Child.defaultProps = {
-  default: 1,
-  defaultOverride: 2,
-};
+// Default props style 2
+// Child.defaultProps = {
+//   default: 1,
+//   defaultOverride: 2,
+// };
 
 
 // Notice small 'p' for propTypes property
-Child.propTypes = {
-  default         : PropTypes.number,
-  defaultOverride : PropTypes.number,
-  alwaysInt       : PropTypes.number,
-  alwaysStr       : PropTypes.string,
-}
+// Child.propTypes = {
+//   default         : PropTypes.number,
+//   defaultOverride : PropTypes.number,
+//   alwaysInt       : PropTypes.number,
+//   alwaysStr       : PropTypes.string,
+// }

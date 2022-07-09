@@ -9,9 +9,9 @@ import './index.css';
 const root = document.getElementById('root');
 console.log(React.version);
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // <React.StrictMode>
+    <App />,
+  // </React.StrictMode>,
   root
 );
 
